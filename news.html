@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images\ThetaFavicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <!--Nav Bar Code-->
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><a href="index.html"><img src="images\ThetaSym.png" style="width:50px; height:27px;"></a></div>
+        <ul class="links">
+            <li><a href="members.html">Members</a></li>
+            <!--<li><a href="alumni.html">Alumni</a></li>-->
+            <li><a href="gallery.html">Social</a></li>
+            <li><a href="news.html">Calendar</a></li>
+            <li><a href="forms.html">Forms</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    
+    <!--Event Calendar-->
+    <h1 class="headLineE">Calendar</h1>
+    <div class="eventCalendar">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23D50000&ctz=America%2FLos_Angeles&src=dG9hMTl2MjBoaW5xNmd1NGUwdnV1ODhiNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23EF6C00" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <!--<h3 class="year">2022</h3>
+        <div class="line"></div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">24</div>
+                    <div class="month">Sep</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">Theta Taucos</h3>
+
+                <div class="eventDescription">
+                    Come eat some tacos and rep your letters. 1375 Terrace Drive
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    2:00 - 4:00 PM
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">24</div>
+                    <div class="month">Sep</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">Habitat for Humanity</h3>
+
+                <div class="eventDescription">
+                   Charity Event for Habitat for Humanity, reach out for more details.
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    8:00 AM - 3:30 PM
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">1</div>
+                    <div class="month">Oct</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">Habitat for Humanity</h3>
+
+                <div class="eventDescription">
+                    Charity Event for Habitat for Humanity, reach out for more details.
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    2:00 - 4:00 PM
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">7</div>
+                    <div class="month">Oct</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">Regionals</h3>
+
+                <div class="eventDescription">
+                    Reach out for details. 
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    NA
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">13</div>
+                    <div class="month">Oct</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">Mocktail Mixer </h3>
+
+                <div class="eventDescription">
+                    Meet with industry leaders and figures for networking. Location TBA
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    TBA
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="eventLeftSide">
+                <div class="event-date">
+                    <div class="date">15</div>
+                    <div class="month">Oct</div>
+                </div>
+            </div>
+
+            <div class="eventRightSide">
+                <h3 class="event-title">KTMB Clean Up</h3>
+
+                <div class="eventDescription">
+                    Reach out for details. 
+                </div>
+                <div class="event-time">
+                    <img src="images\eventClock.png" alt="eventClock">    TBA
+                </div>
+
+            </div>
+        </div>-->
+        
+    </div>
+    <!--Footer-->
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/nevadathetatau/?hl=en"> <i class = "fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/nevadathetatau?lang=en"> <i class = "fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/NevadaThetaTau/"> <i class = "fab fa-facebook-f"></i></a>
+        </div>
+        
+        <ul class = "footerList">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="members.html">Members</a>
+            </li>
+            <!--<li>
+                <a href="alumni.html">Alumni</a>
+            </li>-->
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="news.html">Calendar</a>
+            </li>
+            <li>
+                <a href="forms.html">Forms</a>
+            </li>
+  
+        </ul>
+  
+        <p class="copyright" id="currentYear">
+            Theta Tau Rho Delta @ <script>document.write(new Date().getFullYear());</script>
+        </p>
+    </section> 
+
+</body>
+</html>

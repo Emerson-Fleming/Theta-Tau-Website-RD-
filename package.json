@@ -1,0 +1,7 @@
+{
+  "name": "ThetaTauWebsite",
+  "version": "1.0.0",
+  "description": "web scraper",
+  "main": "index.js",
+  "license": "MIT"
+}

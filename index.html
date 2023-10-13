@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images\ThetaFavicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Theta Tau</title>
+</head>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><a href="index.html"><img src="images\ThetaSym.png" style="width:50px; height:27px;"></a></div>
+        <ul class="links">
+            <li><a href="members.html">Members</a></li>
+            <!--<li><a href="alumni.html">Alumni</a></li>-->
+            <li><a href="gallery.html">Social</a></li>
+            <li><a href="news.html">Calendar</a></li>
+            <li><a href="forms.html">Forms</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    <!--Photo Carousel -->
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <img src="images\ChapterPic.jpg" alt="Theta Tau Group Photo">
+            </li>
+            <li class="slide">
+              <img src="images\servicePic.jpg" alt="Service Photo">
+            </li>
+            <li class="slide">
+                <img src="images\hapPic2.jpg" alt="Chapter Picture Number two">
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <!--About Us Section-->
+    <!--
+    <div class="aboutUs">
+        <h1>Who Are We?</h1>
+        <div class="line"></div>
+
+        <article>
+            Theta Tau is a Professional Co-Ed Engineering Fraternity. Founded in 1904 at the Universtiy of Minnesota, 
+            Theta Tau has grown to initiate over 40,000 members. We are the chapter founded in the University of Nevada, Reno, Rho Delta.
+        </article>
+
+        <h1>Purpose</h1>
+        <div class="line"></div>
+        <article>
+            The purpose of Theta Tau is to develop and maintain a high standard of professional 
+            interest among its members, and to unite them in a strong bond of fraternal fellowship.
+        </article>
+    </div>
+    -->
+
+    <!--Pillars Section-->
+    <div class="pillars">
+        <div class="title">
+            <h1>Pillars</h1>
+        </div>
+        <div class="line"></div>
+
+        <div class="box">
+            <div class="card">
+                <div class="tst">
+                    <i class="books">
+                        <span class="material-symbols-outlined" style="font-size: 200px; color: white"> book_2 </span>
+                    </i>
+                    <h1>Professional Development</h1>
+                </div>
+                <div class= "pra">
+                    <p>We develop and nurture engineers with strong communication,
+                        problem-solving, collaboration, and leadership skills that we demonstrate in our profession, our community, 
+                       and in our lives.
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="tst">
+                    <i class="customer-service">
+                        <span class="material-symbols-outlined" style="font-size: 200px; color: white"> volunteer_activism </span>
+                    </i>
+                    <h1>Community Service</h1>
+                </div>
+                <div class= "pra">
+                    <p>We are known for our service to our college, university and the larger community. 
+                    Our service projects create a unifying environment for learning and personal growth for our members.
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="tst">
+                    <i class="collaboration">
+                        <span class="material-symbols-outlined" style="font-size: 200px; color: white"> diversity_3 </span>
+                    </i>
+                    <h1>Brotherhood</h1>
+                </div>
+                <div class="pra">
+                    <p>We forge lifelong bonds of fraternal friendship, a journey that develops and delivers a network of lasting personal and professional relationships.
+                        We foster an inviting, safe, and social environment in which our members become lifelong friends.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Footer Section-->
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/nevadathetatau/?hl=en"> <i class = "fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/nevadathetatau?lang=en"> <i class = "fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/NevadaThetaTau/"> <i class = "fab fa-facebook-f"></i></a>
+        </div>
+        
+        <ul class = "footerList">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="members.html">Members</a>
+            </li>
+            <!--<li>
+                <a href="alumni.html">Alumni</a>
+            </li>-->
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="news.html">Calendar</a>
+            </li>
+            <li>
+                <a href="forms.html">Forms</a>
+            </li>
+
+        </ul>
+
+        <p class="copyright" id="currentYear">
+            Theta Tau Rho Delta @ <script>document.write(new Date().getFullYear());</script>
+        </p>
+    </section>   
+    <script src="apps.js"></script>
+</body>
+</html>
